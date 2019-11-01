@@ -1,0 +1,21 @@
+body{
+    background-color: palegoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contenedor{
+    display: flex;
+}
+
+header,nav,footer{
+    flex-basis: 100%;
+}
+aside{
+    flex-basis: 15%;
+}
+article{
+    flex-grow: 1;
+}
+
+header{background-color: lightsalmon;}
+nav{background-color: sandybrown;}
