@@ -1,10 +1,16 @@
 body{
     background-color: palegoldenrod;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
     
 }
 .contenedor{
     display: flex;
+    flex-wrap: wrap;
+}
+.contenedor>*{
+    padding: 1em;
+    text-align: center;
 }
 
 header,nav,footer{
@@ -12,10 +18,13 @@ header,nav,footer{
 }
 aside{
     flex-basis: 15%;
+    background-color: orange;
 }
 article{
     flex-grow: 1;
+    background-color: yellow;
 }
 
 header{background-color: lightsalmon;}
 nav{background-color: sandybrown;}
+footer{background-color: tan}
