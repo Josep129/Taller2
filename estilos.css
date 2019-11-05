@@ -23,6 +23,7 @@ aside{
 article{
     flex-grow: 1;
     background-color: yellow;
+    width: 500px;
 }
 
 header{background-color: orangered;}
@@ -43,4 +44,7 @@ a:hover{
 header>image{
     width: 80px;
     height: 80px;
+}
+header>img{
+    width: 90px;
 }
