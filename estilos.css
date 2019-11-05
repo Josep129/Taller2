@@ -51,6 +51,7 @@ ul>li>a{
     font-weight: bold;
     display: block;
     padding: 10px;
+    color: blue;
 }
 ul>li{
     display: inline;
