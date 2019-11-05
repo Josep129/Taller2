@@ -10,9 +10,9 @@
 <body>
     <div class="contenedor">
         <?php include'partes/header.php' ?>
-        <aside>as</aside>
+        <aside></aside>
         <article>article</article>
-        <aside>as</aside>
+        <aside></aside>
         <?php include'partes/footer.php' ?>
     </div>
 </body>
