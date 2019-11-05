@@ -22,11 +22,11 @@ header,nav,footer{
 }
 aside{
     flex-basis: 15%;
-    background-color: orange;
+    background-color: rgb(247, 191, 89);
 }
 article{
     flex-grow: 1;
-    background-color: yellow;
+    background-color: rgb(255, 244, 87);
     width: 500px;
 }
 
@@ -68,4 +68,13 @@ a:hover{
 }
 header>img{
     width: 90px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+form>input{
+    padding: 1em;
+    margin: 1em;
 }
