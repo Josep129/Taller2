@@ -13,7 +13,7 @@
         <aside></aside>
         <article>
             <h2>Crear Usuario</h2>
-            <form action="ProcesoUsuario.php" method="post">
+            <form action="Procesar_usuario.php" method="post">
                 <input type="text" name="Usuario" placeholder="Usuario">
                 <input type="email" name="email" id="" placeholder="Email">
                 <input type="password" name="password" id="" placeholder="Contraseña">
