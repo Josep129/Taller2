@@ -1,6 +1,7 @@
 <body>
     <header>
         <img src="imagenes/logo.jpg" alt="">
+        Foros Gamers
     </header>
     <nav>
         <aside></aside>

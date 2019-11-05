@@ -26,13 +26,21 @@ article{
     width: 500px;
 }
 
-header{background-color: orangered;}
+header{
+    background-color: orangered;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 40px;
+}
 nav{
     background-color: sandybrown;
     display: flex;
     justify-content: space-around;
 }
-footer{background-color: tan}
+footer{
+    background-color: tan;
+    color: aliceblue;
+}
 
 a{
     text-decoration: none;
