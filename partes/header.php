@@ -4,12 +4,12 @@
         Foros Gamers
     </header>
     <nav>
-        <aside></aside>
-        <a href="Index.php">Inicio</a>
-        <a href="Foros.php">Foros</a>
-        <a href="Noticias.php">Noticias</a>
-        <a href="Videos.php">Videos</a>
-        <a href="Comunidad.php">Comunidad</a>
-        <aside></aside>
+        <ul>
+            <li><a href="Index.php">Inicio</a></li>
+            <li><a href="Foros.php">Foros</a></li>
+            <li><a href="Noticias.php">Noticias</a></li>
+            <li><a href="Videos.php">Videos</a></li>
+            <li><a href="Comunidad.php">Comunidad</a></li>
+        </ul>
     </nav>
 </body>
