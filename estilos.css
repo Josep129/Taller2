@@ -69,3 +69,12 @@ a:hover{
 header>img{
     width: 90px;
 }
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+form>input{
+    padding: 1em;
+    margin: 1em;
+}
