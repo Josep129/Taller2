@@ -11,7 +11,15 @@
     <div class="contenedor">
         <?php include'partes/header.php' ?>
         <aside></aside>
-        <article>article</article>
+        <article>
+            <h2>Inicia Sesión</h2>
+            <form action="" method="post">
+                <input type="text" name="usuario" placeholder="Usuario">
+                <input type="password" name="password" id="" placeholder="Contraseña">
+                <input type="button" value="Ingresar">
+            </form>
+            <h3>* No posees una cuenta, crear una <a href="crearusuario.php">ahora</a></h3>
+        </article>
         <aside></aside>
         <?php include'partes/footer.php' ?>
     </div>

@@ -10,7 +10,6 @@
             <li><a href="Noticias.php">Noticias</a></li>
             <li><a href="Videos.php">Videos</a></li>
             <li><a href="Comunidad.php">Comunidad</a></li>
-            <li><a href="crearusuario.php">Iniciar Sesión</a></li>
         </ul>
     </nav>
 </body>
