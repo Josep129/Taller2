@@ -28,9 +28,9 @@ $pdo->query($query);
 
 # Enviar correo de bienvenida
 $mensaje = "Hola $usuario, bienvenido al foro de videojuegos.";
-mail($mail, "bienvenido al foro de videojuegos 🚌", $mensaje, "From: admin@localhost");
+mail($mail, "bienvenido al foro de videojuegos ", $mensaje, "From: admin@localhost");
 
 session_start();
 $_SESSION["usuario"] = $usuario;
-header("Location: index.php");
+header("Location: INDEX.php");
 ?>
