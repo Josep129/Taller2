@@ -11,7 +11,9 @@
     <div class="contenedor">
         <?php include'partes/header.php' ?>
         <aside></aside>
-        <article>article</article>
+        <article>
+            article
+        </article>
         <aside></aside>
         <?php include'partes/footer.php' ?>
     </div>

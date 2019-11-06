@@ -9,11 +9,9 @@
 </head>
 <body>
     <div class="contenedor">
-        <?php include'partes/header.php' ?>
-        <aside></aside>
-        <article>article</article>
-        <aside></aside>
-        <?php include'partes/footer.php' ?>
-    </div>
+            <?php include'partes/header.php' ?>
+            <img src="imagenes/Svideo.gif" alt="">
+            <?php include'partes/footer.php' ?>
+        </div>
 </body>
 </html>
