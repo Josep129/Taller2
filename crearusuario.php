@@ -18,7 +18,7 @@
                 <input type="email" name="email" id="" placeholder="Email">
                 <input type="password" name="password" id="" placeholder="Contraseña">
                 <input type="password" name="password2" id="" placeholder="* Confirmar Contraseña">
-                <input type="button" value="Registrar"> 
+                <button type="submit">Registrar Usuario</button>
             </form>
         </article>
         <aside></aside>

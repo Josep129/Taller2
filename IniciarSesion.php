@@ -13,10 +13,10 @@
         <aside></aside>
         <article>
             <h2>Inicia Sesión</h2>
-            <form action="" method="post">
+            <form action="iniciarprocesar.php" method="post">
                 <input type="text" name="usuario" placeholder="Usuario">
                 <input type="password" name="password" id="" placeholder="Contraseña">
-                <input type="button" value="Ingresar">
+                <button type="submit">Iniciar Sesion</button>
             </form>
             <h3>* No posees una cuenta, crear una <a href="crearusuario.php">ahora</a></h3>
         </article>

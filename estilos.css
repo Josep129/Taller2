@@ -58,7 +58,7 @@ ul>li{
     border: 0;
 }
 ul{
-    background-color: #1b4b5a;
+    
     display: flex;
 }
 a:hover{
@@ -77,4 +77,22 @@ form{
 form>input{
     padding: 1em;
     margin: 1em;
+}
+#reference{
+    background-color: red;
+    height: 40px;
+    width: 600px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 60%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.li1{
+    color: white;
+    font-size: 20px;
+    margin-left: 0%;
+    margin-right: 20px;
 }
