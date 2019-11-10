@@ -10,7 +10,7 @@
 <body>
     <div class="contenedor">
             <?php include'partes/header.php' ?>
-            <img src="imagenes/Svideo.gif" alt="">
+            <img class="fondo" src="imagenes/Svideo.gif" alt="">
             <?php include'partes/footer.php' ?>
         </div>
 </body>

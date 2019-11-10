@@ -80,14 +80,14 @@ form>input{
     margin: 1em;
 }
 #reference{
-    background-color: red;
+    background-color: rgb(255, 136, 0);
     height: 40px;
-    width: 600px;
+    width: 1200px;
     border-radius: 10px;
     border: 1px solid black;
     text-decoration: none;
     margin-bottom: 20px;
-    margin-left: 60%;
+    margin-left: 58%;
     padding-top: 0px;
     padding-bottom: 10px;
 }
@@ -96,4 +96,10 @@ form>input{
     font-size: 20px;
     margin-left: 0%;
     margin-right: 20px;
+}
+.fondo{
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
 }
