@@ -9,9 +9,11 @@
 </head>
 <body>
     <div class="contenedor">
-            <?php include'partes/header.php' ?>
-            <img class="fondo" src="imagenes/Svideo.gif" alt="">
-            <?php include'partes/footer.php' ?>
+        <?php include'partes/header.php' ?>
+        <div style='z-index:0;left:0;top:0;width:100%;height:100%'>
+            <img class="fondo" src="imagenes/Svideo.gif" style='width:100%;height:100%' alt='[]'>
         </div>
+        <?php include'partes/footer.php' ?>
+    </div>
 </body>
 </html>
