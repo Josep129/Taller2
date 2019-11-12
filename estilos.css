@@ -134,7 +134,7 @@ form>input{
     display: flex;
     padding:0;
     margin: 0;
-    width: 310px;
+    width: 410px;
     margin: auto 0 auto auto;
 }
 
@@ -145,7 +145,6 @@ form>input{
 .nombre{
     color: blanchedalmond;
 }  
-}
 .fondo{
     max-width: 100%;
     background-size: cover;
