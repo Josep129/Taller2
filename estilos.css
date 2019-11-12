@@ -99,8 +99,13 @@ footer{
     color: aliceblue;
 }
 
+<<<<<<< HEAD
 ul>li>a{
     
+=======
+a{
+    text-decoration: none;
+>>>>>>> 2a0a7488ea5ee22fd12a04611668d025a50de3e8
     font-weight: bold;
     padding: 10px;
     color: rgb(99, 99, 243);
@@ -141,7 +146,6 @@ form>input{
     margin: auto 0 auto auto;
 }
 
-*sdafsadfsdfsdf
 .menuOpciones{
     margin: 10px 0;
     text-align: right;
@@ -156,4 +160,87 @@ form>input{
     background-position: center;
     padding: 0;
     margin: 0 auto
+}
+
+/* Footer */
+  .container-body{
+    display: flex;
+    justify-content: space-between;
+}
+  .colum1{
+    flex-basis: 35%;
+    padding: 1em;
+}
+  .colum1 h1{
+    font-size: 22px;
+}
+  .colum1 p{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #444;
+    padding: 1em;
+}
+  .disminuye{
+    width: 50px;
+    height: auto;
+}
+  .colum2{
+    flex-basis: 35%;
+}
+  .colum2 h1{
+    font-size: 22px;
+}
+  .row{
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+}
+  .row img{
+    width: 36px;
+    height: 36px;
+}
+  .row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #444;
+}
+  .colum3{
+    flex-grow: 1;
+}
+  .colum3 h1{
+    font-size: 22px;
+}
+  .row2{
+    margin-top: 20px;
+    display: flex;
+    color: #444;
+    font-weight: bold;
+}
+  .row2 img{
+    width: 36px;
+    height: 36px;
+}
+  .row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+  .footer{
+    max-width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+}
+  .img{
+    width: 50%;
+    height: 50px;
+    float: right;
+    text-align: left;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
