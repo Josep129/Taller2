@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One&display=swap');
+*{
+    font-family: 'Supermercado One', cursive;
+}
 body{
     background-color: #0f1f38;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,16 +24,64 @@ body{
 header,nav,footer{
     flex-basis: 100%;
 }
-aside{
-    flex-basis: 15%;
-    background-color: #15171a;
+.loginbox{
+    margin: 20px auto;
+    width: 300px;
+    border-style: solid;
+    border-color: aqua;
+    padding: 20px;
+    background-color: #FFF;
+    margin:25px auto;
+    border-radius: 15px;
+
 }
-article{
-    flex-grow: 1;
-    background-color: #15171ada;
-    width: 500px;
-    color: #555d61;
+.loginbox .fila{
+    margin-bottom: 10px
 }
+.loginbox .fila input{
+    text-align: left;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+    background-color: #ECF0F1;
+}
+
+.loginbox .fila input:focus {
+    border: 2px solid #ac0606;
+    box-shadow: none;
+  }
+  
+  .loginbox .btnlogin {
+    border: 2px solid transparent;
+    background: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 15px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+  }
+  .loginbox .btnlogin:hover {
+    background-color: rgb(94, 98, 100);
+
+  } 
+
+
+.LoginName {
+    text-align: center;
+    color: #da9833;
+    font-family: 'Supermercado One', cursive;
+    }
 
 header{
     background-color: #f55449;
@@ -47,8 +99,13 @@ footer{
     color: aliceblue;
 }
 
+<<<<<<< HEAD
+ul>li>a{
+    
+=======
 a{
     text-decoration: none;
+>>>>>>> 2a0a7488ea5ee22fd12a04611668d025a50de3e8
     font-weight: bold;
     padding: 10px;
     color: rgb(99, 99, 243);
@@ -57,6 +114,8 @@ ul>li{
     display: inline;
     padding-inline: 15px;
     border: 0;
+        
+
 }
 ul{
     
@@ -79,23 +138,21 @@ form>input{
     padding: 1em;
     margin: 1em;
 }
-#reference{
-    background-color: rgb(255, 136, 0);
-    height: 40px;
-    width: 1200px;
-    border-radius: 10px;
-    border: 1px solid black;
-    text-decoration: none;
-    margin-bottom: 20px;
-    margin-left: 58%;
-    padding-top: 0px;
-    padding-bottom: 10px;
+.menuInferior{
+    display: flex;
+    padding:0;
+    margin: 0;
+    width: 310px;
+    margin: auto 0 auto auto;
 }
-.li1{
-    color: white;
-    font-size: 20px;
-    margin-left: 0%;
-    margin-right: 20px;
+
+.menuOpciones{
+    margin: 10px 0;
+    text-align: right;
+}
+.nombre{
+    color: blanchedalmond;
+}  
 }
 .fondo{
     max-width: 100%;

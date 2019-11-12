@@ -10,16 +10,28 @@
 <body>
     <div class="contenedor">
         <?php include'partes/header.php' ?>
-        <aside></aside>
-        <article>
-            <h2>Inicia Sesión</h2>
+        
+        
+
+        <div class="loginbox">
+        <h2 class="LoginName">Iniciar Sesión</h2>
             <form action="iniciarprocesar.php" method="post">
-                <input type="text" name="usuario" placeholder="Usuario">
-                <input type="password" name="password" id="" placeholder="Contraseña">
-                <button type="submit">Iniciar Sesion</button>
+                <div  class="fila">
+                    <input type="text" name="usuario" placeholder="Usuario">
+                </div>
+                <div class="fila">
+                    <input type="password" name="password" id="" placeholder="Contraseña">
+                </div>
+                <div class="fila">
+                    <button class="btnlogin" type="submit">Iniciar Sesion</button>
+                    <p> o <a href="crearusuario.php">Crea tu cuenta</a> </p>
+                </div>
             </form>
-            <h3>* No posees una cuenta, crear una <a href="crearusuario.php">ahora</a></h3>
-        </article>
+        </div>
+
+
+            
+        
         <aside></aside>
         <?php include'partes/footer.php' ?>
     </div>

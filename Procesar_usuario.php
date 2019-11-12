@@ -22,7 +22,7 @@ if (count($usuarios) > 0) {
 }
 
 # Guardar usuario en la tabla 'usuarios'
-$hash = password_hash($password1, PASSWORD_DEFAULT);
+$hash = password_hash($password, PASSWORD_DEFAULT);
 $query = "INSERT INTO user VALUES (NULL, '$usuario', '$hash', '$email')";
 $pdo->query($query);
 

@@ -3,15 +3,14 @@ if (isset($_SESSION["Usuario"])) {
     $Nombre=$_SESSION["Usuario"];
 
 }
-$asd="asd";
 ?>    
 
 
 <body>
-    <div id="reference">
-        <ul class="ul1">
+    <div class="menuInferior">
+        <ul class="menuOpciones">
         <?php if (isset($_SESSION["Usuario"])){ ?>
-            <li class="li1"><?php echo($Nombre) ?></li>
+            <li class="li1 nombre"><?php echo($Nombre) ?></li>
             <li class="li1"><a href="logout.php">Cerrar Sesion</a></li>
         <?php }else { ?>
             <li class="li1"><a href="IniciarSesion.php">Iniciar Sesion</a></li>
