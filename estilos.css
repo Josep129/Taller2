@@ -98,7 +98,7 @@ form>input{
     margin-right: 20px;
 }
 .fondo{
-    min-height: 400px;
+    max-width: 100%;
     background-size: cover;
     background-position: center;
     padding: 0;
