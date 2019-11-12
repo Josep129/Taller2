@@ -10,18 +10,29 @@
 <body>
     <div class="contenedor">
         <?php include'partes/header.php' ?>
-        <aside></aside>
-        <article>
-            <h2>Crear Usuario</h2>
+
+        <div class="loginbox">
+        <h2 class="LoginName">Crear Usuario</h2>
             <form action="Procesar_usuario.php" method="post">
-                <input type="text" name="Usuario" placeholder="Usuario">
-                <input type="email" name="email" id="" placeholder="Email">
-                <input type="password" name="password" id="" placeholder="Contraseña">
-                <input type="password" name="password2" id="" placeholder="* Confirmar Contraseña">
-                <button type="submit">Registrar Usuario</button>
+                <div  class="fila">
+                    <input type="text" name="Usuario" placeholder="Usuario">
+                </div>
+                <div class="fila">
+                    <input type="email" name="email" id="" placeholder="Email">
+                </div>
+                <div class="fila">
+                    <input type="password" name="password" id="" placeholder="Contraseña">
+                </div>
+                <div class="fila">
+                    <input type="password" name="password2" id="" placeholder="* Confirmar Contraseña">    
+                </div>
+                <div class="fila">
+                    <button class="btnlogin" type="submit">Crear Cuenta</button>
+                    <p> o <a href="iniciarSesion.php">Iniciar Sesión</a> </p>
+                </div>
             </form>
-        </article>
-        <aside></aside>
+        </div>
+       
         <?php include'partes/footer.php' ?>
     </div>
 </body>

@@ -14,7 +14,6 @@ session_start();
 <body>
     <div class="contenedor">
         <?php include'partes/header.php' ?>
-        <aside></aside>
         <article>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam distinctio veniam, perspiciatis minima, alias voluptatem aliquam laborum culpa minus corporis natus vitae dolorem nobis similique eaque. Laboriosam dolores voluptate exercitationem?
             Rerum animi nihil ipsum! Optio odit qui dolore officia doloribus neque nisi veritatis, saepe voluptate, itaque quidem in ea hic iure repudiandae obcaecati! Eligendi veritatis debitis alias aliquam, minima et?
@@ -33,7 +32,6 @@ session_start();
             Ex saepe earum velit, harum dolorum explicabo veniam. Delectus dignissimos eum placeat id quaerat facere sapiente. Sed nesciunt quasi nam iure esse assumenda accusantium. Earum incidunt eum reiciendis vitae ex.
             Nesciunt quidem natus autem, atque neque aliquid delectus enim illo eligendi voluptates qui exercitationem libero, hic facere quo? Sunt libero eos, omnis porro fuga neque laboriosam perspiciatis in quis rem!
         </article>
-        <aside></aside>
         <?php include'partes/footer.php' ?>
     </div>
 </body>
