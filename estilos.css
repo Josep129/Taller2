@@ -76,7 +76,6 @@ header,nav,footer{
 
   } 
 
-
 .LoginName {
     text-align: center;
     color: #da9833;
@@ -99,13 +98,8 @@ footer{
     color: aliceblue;
 }
 
-<<<<<<< HEAD
-ul>li>a{
-    
-=======
 a{
     text-decoration: none;
->>>>>>> 2a0a7488ea5ee22fd12a04611668d025a50de3e8
     font-weight: bold;
     padding: 10px;
     color: rgb(99, 99, 243);
@@ -114,8 +108,6 @@ ul>li{
     display: inline;
     padding-inline: 15px;
     border: 0;
-        
-
 }
 ul{
     
