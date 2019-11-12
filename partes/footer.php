@@ -4,11 +4,7 @@
         <div class="container-body">
             <div class="colum1">
                 <h1>Mas informacion de Nosotros</h1>
-                <pre>
-                <p>Somos un equipo de profesionales que cree fervientemente 
-que podemos darles una segunda oportunidad a estos canes, 
-aplicando la técnica de socialización activa entre pares</p>
-                </pre>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam itaque aspernatur voluptatibus, aliquam, ut eveniet facere odit quae eligendi fuga delectus, enim illum officia ipsa sequi totam recusandae veritatis omnis.</p>
             </div>
             <div class="colum2">
                 <h1>Redes Sociales</h1>
@@ -33,11 +29,11 @@ aplicando la técnica de socialización activa entre pares</p>
                 </div>
                 <div class="row2">
                     <img src="iconos/celular.png">
-                    <label>+51 987654321</label>
+                    <label>+51 956 320 579</label>
                 </div>
                 <div class="row2">
                     <img src="iconos/contacto.png">
-                     <label>pedro040529@gmail.com</label>
+                     <label>josep129h@gmail.com</label>
                 </div>
             </div>
         </div>

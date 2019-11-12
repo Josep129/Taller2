@@ -47,7 +47,7 @@ footer{
     color: aliceblue;
 }
 
-ul>li>a{
+a{
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -111,22 +111,24 @@ form>input{
     justify-content: space-between;
 }
   .colum1{
-    max-width: 400px;
+    flex-basis: 35%;
+    padding: 1em;
 }
   .colum1 h1{
     font-size: 22px;
 }
   .colum1 p{
-    font-size: 14px;
-    color: black;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #444;
+    padding: 1em;
 }
   .disminuye{
     width: 50px;
     height: auto;
 }
   .colum2{
-    max-width: 400px;
+    flex-basis: 35%;
 }
   .colum2 h1{
     font-size: 22px;
@@ -146,7 +148,7 @@ form>input{
     color: #444;
 }
   .colum3{
-    max-width: 400px;
+    flex-grow: 1;
 }
   .colum3 h1{
     font-size: 22px;
