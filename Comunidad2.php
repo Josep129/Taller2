@@ -13,8 +13,10 @@ session_start();
 </head>
 <body>
     <div class="contenedor">
+        <div class="fondo">
         <?php include'partes/header.php' ?>
         
+        <div class="fondo">
         <?php if(isset($_SESSION["Usuario"])) { ?>
         <h1>Estas Iniciado</h1>
 
@@ -23,8 +25,10 @@ session_start();
             
         }
             ?>
+        </div>
 
         <?php include'partes/footer.php' ?>
+        </div>
     </div>
 </body>
 </html>

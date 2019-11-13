@@ -11,6 +11,11 @@
     <div class="contenedor">
         <?php include'partes/header.php' ?>
         <div class="fondo">
+            <article>
+                <div class="videos"></div>
+                <div class="espacio"></div>
+                <div class="canales"></div>
+            </article>
         </div>
         <?php include'partes/footer.php' ?>
     </div>

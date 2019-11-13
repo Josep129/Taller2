@@ -52,7 +52,7 @@ header,nav,footer{
 }
 
 .loginbox .fila input:focus {
-    border: 2px solid #ac0606;
+    border: 2px solid #ff4e4eb6;
     box-shadow: none;
   }
   
@@ -151,6 +151,7 @@ form>input{
   height: 100%;
   background-image: url("imagenes/Svideo.gif");
   background-size: cover;
+  background-position: center;
 }
 
 /* Footer */
@@ -234,4 +235,48 @@ form>input{
     text-align: left;
     padding-top: 10px;
     box-sizing: border-box;
+}
+
+/* Foros */
+article{
+  display: flex;
+}
+.foros{
+  border-style: solid;
+  border-color: aqua;
+  padding: 1em;
+  background-color: #FFF;
+  border-radius: 15px;
+  flex-basis: 35%;
+  text-align: left;
+}
+.inicio{
+  border-style: solid;
+  border-color: aqua;
+  padding: 1em;
+  background-color: #FFF;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+.espacio{
+  flex-basis: 4%;
+}
+.videos{
+  border-style: solid;
+  padding: 1em;
+  border-radius: 15px;
+  flex-basis: 70%;
+}
+.canales{
+  border-style: solid;
+  padding: 1em;
+  border-radius: 15px;
+  flex-basis: 20%;
+  text-align: left;
+}
+iframe{
+  padding: 1em;
+}
+.canales>.row>img{
+  border-radius: 20px;
 }

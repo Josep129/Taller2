@@ -11,8 +11,9 @@
     <div class="contenedor">
         <?php include'partes/header.php' ?>
 
-        <div class="loginbox">
-        <h2 class="LoginName">Crear Usuario</h2>
+        <div class="fondo">
+            <div class="loginbox">
+            <h2 class="LoginName">Crear Usuario</h2>
             <form action="Procesar_usuario.php" method="post">
                 <div  class="fila">
                     <input type="text" name="Usuario" placeholder="Usuario">
@@ -31,6 +32,7 @@
                     <p> o <a href="iniciarSesion.php">Iniciar Sesión</a> </p>
                 </div>
             </form>
+        </div>
         </div>
        
         <?php include'partes/footer.php' ?>
