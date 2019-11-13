@@ -16,7 +16,6 @@ session_start();
         <?php include'partes/header.php' ?>
         <article>
             <div class="inicio">
-                Quisquam ea quibusdam ducimus excepturi eum, accusamus deleniti blanditiis nostrum atque inventore rerum nobis sunt velit laudantium quasi ipsam consectetur omnis provident labore molestiae. Ex labore accusamus odio cumque placeat. 
             </div>
             <div class="espacio"></div>
             <div class="foros">

@@ -10,11 +10,9 @@
 <body>
     <div class="contenedor">
         <?php include'partes/header.php' ?>
-        
-        
-
-        <div class="loginbox">
-        <h2 class="LoginName">Iniciar Sesión</h2>
+        <div class="fondo">
+            <div class="loginbox">
+            <h2 class="LoginName">Iniciar Sesión</h2>
             <form action="iniciarprocesar.php" method="post">
                 <div  class="fila">
                     <input type="text" name="usuario" placeholder="Usuario">
@@ -28,11 +26,7 @@
                 </div>
             </form>
         </div>
-
-
-            
-        
-        <aside></aside>
+        </div>
         <?php include'partes/footer.php' ?>
     </div>
 </body>

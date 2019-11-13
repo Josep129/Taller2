@@ -11,6 +11,16 @@
     <div class="contenedor">
         <?php include'partes/header.php' ?>
         <div class="fondo">
+            <article>
+                <div class="videos">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jyi1KnFiHLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nDQKIlF7XkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="espacio"></div>
+                <div class="canales">
+                    <h2>Canales</h2>
+                </div>
+            </article>
         </div>
         <?php include'partes/footer.php' ?>
     </div>
