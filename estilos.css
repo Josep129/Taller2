@@ -235,3 +235,27 @@ form>input{
     padding-top: 10px;
     box-sizing: border-box;
 }
+
+/* Foros */
+article{
+  display: flex;
+}
+.foros{
+  border-style: solid;
+  border-color: aqua;
+  padding: 1em;
+  background-color: #FFF;
+  border-radius: 15px;
+  flex-basis: 60%;
+}
+.inicio{
+  border-style: solid;
+  border-color: aqua;
+  padding: 1em;
+  background-color: #FFF;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+.espacio{
+  flex-basis: 5%;
+}

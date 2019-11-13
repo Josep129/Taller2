@@ -12,12 +12,26 @@
         <?php include'partes/header.php' ?>
         <aside></aside>
         <article>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consectetur consequatur sit sequi earum sapiente facere? Nulla cumque pariatur eaque voluptatibus reprehenderit, tempora inventore eveniet totam sapiente vitae quos? Accusamus.
-            In officiis facere atque neque culpa modi quae nulla, nostrum blanditiis eos natus placeat fuga mollitia assumenda impedit eaque similique veniam illum! At corrupti fugit aliquam nulla molestiae dignissimos nemo.
-            Consequuntur enim culpa harum obcaecati suscipit, ipsa placeat quos beatae iure nisi, laborum eum illum ut eligendi eos vel amet a repellat dolorum inventore quo voluptate voluptatem tempore? Alias, a!
-            Nobis consequuntur sunt architecto vitae consectetur laboriosam, iure quia omnis voluptatum, vel animi voluptates magni eaque explicabo ad blanditiis consequatur illum doloremque placeat. Enim libero iure numquam blanditiis! Quisquam, id?
-            Quae excepturi nulla repellendus expedita itaque ad corrupti impedit asperiores, numquam voluptate dolorum neque dolores aut cumque porro. Dolores nisi fuga distinctio eos culpa eius tempore enim corrupti nihil quos?
-            Corporis maiores ut dolorem animi velit nihil aperiam dolores distinctio! Dolorem odio, magnam perspiciatis impedit unde quae, sed ad voluptas pariatur illum distinctio eos provident veritatis! Earum soluta atque repellat.
+        <table width="90%" border="0" cellspacing="2" cellpadding="2">
+            <form name="f" action="agregar.php" method="post">
+            <input type="hidden" name="identificador" value="<?=$id?>">
+            <tr>
+            <td width="30%" align="right">Autor </td>
+            <td><input type="text" name="autor"></td>
+            </tr>
+            <tr>
+            <td width="30%" align="right">Titulo</td>
+            <td><input type="text" name="titulo" value="<?=$titulo?>"></td>
+            </tr>
+            <tr>
+            <td width="30%" align="right">Mensaje</td>
+            <td><textarea name="mensaje" cols="50" rows="5"><?=$mensaje?></textarea></td>
+            </tr>
+            <tr>
+            <td colspan="2" align="center"><input type="submit" name="Submit" value="Enviar Mensaje"></td>
+            </tr>
+            </form>
+        </table>
         </article>
         <aside></aside>
         <?php include'partes/footer.php' ?>
