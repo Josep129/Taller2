@@ -277,3 +277,6 @@ article{
 iframe{
   padding: 1em;
 }
+.canales>.row>img{
+  border-radius: 20px;
+}
