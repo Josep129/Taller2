@@ -19,7 +19,12 @@ $has_bd=$usuarios[0]["password"];
 if(password_verify($password,$has_bd)){
     session_start();
     $_SESSION["Usuario"]=$usuario;
-    header("Location: Index.php");
+    if($usuario=="admin123"){
+        $_SESSION["tipo"]="administrador";
+        header("Location: index.php");
+      }else{
+        header("Location: Index.php");
+      }
    }else{
     header("Location: Index.php?error=1");
 }

@@ -28,6 +28,9 @@ if (isset($_SESSION["Usuario"])) {
             <li><a href="Foros.php">Foros</a></li>
             <li><a href="Noticias.php">Noticias</a></li>
             <li><a href="Videos.php">Videos</a></li>
+            <?php if( isset($_SESSION["tipo"]) && $_SESSION["tipo"]=="administrador" ) {?>
+                <li><a href="PaginaAdm.php">Admin</a></li>
+            <?php } ?> 
             <li><a href="Comunidad2.php">Comunidad</a></li>
         </ul>
     </nav>
